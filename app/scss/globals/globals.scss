@@ -1,0 +1,60 @@
+@use '../utils/index' as *;
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+};
+html{
+    font-size : rem(14)
+};
+body{
+    width: 100vw;   // vw : means the view width ; 
+    height: 100vh;   /// vh : means the view height 
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+    background-color: var(--color-background);
+}
+
+a{
+    color: var(--color-dark);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;   
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+small{
+    font-size: 0.76rem;
+}
+
+p{
+    color: var(--color-dark-variant);
+}
+
+b{
+    color: var(--color-dark);
+}

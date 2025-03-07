@@ -1,0 +1,26 @@
+{
+  "name": "2---asmar-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.79.3"
+  }
+}

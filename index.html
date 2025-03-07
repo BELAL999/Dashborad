@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>resposnsive dashboard </title>
+    <link rel="stylesheet" href="/dist/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class='toggle'>
+                <div class='logo'>
+                    <img src= 'images/logo.png'>
+                    <h2>Asmar prg</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">person_outline</span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">receipt_long</span>
+                    <h3>History</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">insights</span>
+                    <h3>analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">mail_outline</span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">inventory</span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">report_gmailerrorred</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">add</span>
+                    <h3>New login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Log out </h3>
+                </a>
+            </div>
+        </aside>
+        <!-- end of the side bar  -->
+        <!-- begin of the main content -->
+        <main>
+             <!-- begain of the analysis element  -->
+             <section class="analytics-section">
+                <h2>Analytics</h2>
+                <div class="cards">
+                    <div class="card1"> 
+                        <div class="card1__info">
+                            <div class="card1__title">Total Sales</div>
+                            <div class="card1__count">$65,024</div>
+                        </div>
+                        <div class="card1__progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="card1__progress__percentage">+81</div>
+                        </div>
+                    </div>
+                    <div class="card1"> 
+                        <div class="card1__info">
+                            <div class="card1__title">Site Vistes</div>
+                            <div class="card1__count">23,005</div>
+                        </div>
+                        <div class="card1__progress card1__progress--down">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="card1__progress__percentage">-43</div>
+                        </div>
+                    </div>
+                    <div class="card1"> 
+                        <div class="card1__info">
+                            <div class="card1__title">Searches</div>
+                            <div class="card1__count">14,417</div>
+                        </div>
+                        <div class="card1__progress card1__progress--searches">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="card1__progress__percentage">+21</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of the analysis element  -->
+
+            <!-- begain of the new users section  -->
+            <h2>New users</h2>
+             <section class="new-users">
+                <div class="user">
+                    <img src="images/profile-2.jpg" alt="user">
+                    <div class="user__name">Jack</div>
+                    <div class="user__login">54 Min Ago</div>
+                </div>
+                <div class="user">
+                    <img src="images/profile-1.jpg" alt="user">
+                    <div class="user__name">Ember</div>
+                    <div class="user__login">6 Hours Ago</div>
+                </div>
+                <div class="user">
+                    <img src="images/profile-3.jpg" alt="user">
+                    <div class="user__name">Amir</div>
+                    <div class="user__login">3 Hours Ago</div>
+                </div>
+                <div class="user add-user">
+                    <img src="images/plus.png" alt="add-iser">
+                    <div class="user__name">More</div>
+                    <div class="user__login">New User</div>
+                </div>
+             </section>
+             <!-- end of the new useser section -->
+              <!--begain of the recent orders section   -->
+              <section class="recent-orders">
+                  <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Course Number</th>
+                            <th>Payment</th>
+                            <th>status</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>javaScript Tutorial</td>
+                            <td>85743</td>
+                            <td>Due</td>
+                            <td>pending</td>
+                            <td>Details</td>
+                          </tr>
+                          <tr>
+                            <td>Css full course</td>
+                            <td>97245</td>
+                            <td>Refunded</td>
+                            <td>Declined</td>
+                            <td>Details</td>
+                          </tr>
+                          <tr>
+                              <td>flex-Box Tutorial</td>
+                              <td>36452</td>
+                              <td>Paid</td>
+                              <td>Active</td>
+                              <td>Details</td>
+                          </tr>
+                    </tbody>
+                    
+                  </table>
+              </section>
+              <!-- end of the new recent orders section -->
+         </main>
+         <!--end of the main content  -->
+
+         <!-- start of the right right bar  -->
+          <section class="right-side">
+            <div class="nav">
+                <button class="menu-but js-menu-but">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <div class="nav__switch">
+                    <span class="material-symbols-outlined nav__light">light_mode</span>
+                    <span class="material-symbols-outlined dark nav__dark">dark_mode</span>
+                </div>
+                <div class="nav__profile">
+                    <p>Hey , Raze <br><b>Admin</b></p>   
+                    <img src="images/profile-2.jpg">
+                </div>
+            </div>
+            <div class="right-profile">
+                <div class="right-profile__img">
+                    <img src="images/logo.png" >
+                </div>
+                <div class="right-profile__subtitle">
+                    <h2>AsmarProg</h2>
+                    <p>Fullstack web developer </p>
+                </div>
+            </div>
+            <div class="reminder-header">
+                <h2>Reminders</h2>
+                <span class="material-symbols-outlined">notifications</span>
+            </div>
+            <div class="reminders">
+                <div class="reminder">
+                    <div class="reminder__left">
+                        <span class="material-symbols-outlined">volume_up</span>
+                        <div class="reminder__info">
+                            <div class="reminder__name">
+                                <h3>WorkShop</h3>
+                            </div>
+                            <div class="reminder__date">
+                                <p>08:00 AM - 12:00 PM</p>
+                            </div>
+                    </div>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                    
+                </div>
+                <div class="reminder">
+                    <div class="reminder__left">
+                        <span class="material-symbols-outlined">volume_up</span>
+                        <div class="reminder__info">
+                            <div class="reminder__name">
+                                <h3>WorkShop</h3>
+                            </div>
+                            <div class="reminder__date">
+                                <p>08:00 AM - 12:00 PM</p>
+                            </div>
+                    </div>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                    
+                </div>
+                <div class="reminder reminder-button">
+                    <span class="material-symbols-outlined">add</span>
+                    <button class="reminder-button__button">
+                        Add Reminder
+                    </button>
+                </div>
+
+
+
+            </div>
+
+          </section>
+        <!--  end of the right side  -->
+
+    </div>
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
